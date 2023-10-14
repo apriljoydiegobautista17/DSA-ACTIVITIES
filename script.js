@@ -1,15 +1,10 @@
-//ACTIVITY NUMBER8
+//ACTIVITY NUMBER7
 
-let favSingers = ['Tylor Swift', 'Sarah G.', 'TJ Monterde'];
-console.log(favSingers);
+let password = 'p@sswOrd@2023';
 
-let favNumbers = ['17', '19', '4', '1'];
-console.log(favNumbers);
-
-let mixedArr = ["String", ["otherArray"], 123, true];
-
-console.log(favSingers[0]);
-console.log(favSingers[1]);
-console.log(favSingers[2]);
-console.log(favNumbers[1]);
-console.log(mixedArr[3]);
+if(password.length >= password.includes("p@ssword")){
+    console.log("valid password");
+}
+else{
+    console.log("Invalid password");
+}
